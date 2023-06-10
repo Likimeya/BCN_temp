@@ -93,4 +93,5 @@ Existen numerosos algoritmos de predicción de series temporales, pero se pueden
 https://www.cienciadedatos.net/documentos/py27-forecasting-series-temporales-python-scikitlearn.html
 https://github.com/FrancisArgnR/SeriesTemporalesEnCastellano
 https://relopezbriega.github.io/blog/2016/09/26/series-de-tiempo-con-python/
+https://www.analyticsvidhya.com/blog/2021/07/introduction-to-time-series-modeling-with-arima/
 
