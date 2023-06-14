@@ -5,36 +5,21 @@ Analisis historico sobre las temperaturas y precipitaciones en Barcelona ciudad.
 
 
 Contenido
-1. Dataframe
-Dataset downloaded from OpenData Barcelona site.https://opendata-ajuntament.barcelona.cat/data/ca/dataset/precipitacio-hist-bcn/resource/6f1fb778-0767-478b-b332-c64a833d26d2
-Data are structured in time from 1786 to 2020.
-4. Exploratory analysis
-What is the distribution of precipitation values?
-What can be observed from the evolution by years and by months?
-Is there a trend or seasonality in the observed values?
-5. Times series
-Stationarity, Dickey-Fuller test
-Observe trend, seasonality
-Autocorrelation and Partial autocorrelation to get parameters p,d,q
-Arima, autoregressive integrated moving average model
-Evaluation
-Forecast
-6. Supervised ML: Regression model
-Add more data - average temperature values
-Train and test
-Standardization of values with StandardScaler method
-Regression algorithms
-Cross Validation
-Evaluation
-Forecast
-7. Unsupervised ML: K-Means method to observe commen patterns
-Standardization of values with StandardScaler method
-PCA reduction to 2 main components
-Define the best number of clusters
-Evaluate the model
-Observe the final clustres and their common patterns
+Dataframe
+Dataset downloaded from OpenData Barcelona site.
 
 
+
+1. Introducción a Serie de tiempo 1.1 ¿Qué es una serie de tiempo?
+2. Evaluación de Modelos
+3. Modelo Arima 3.1 Definición Matemática de Modelo Arima 3.2 Leemos datos 3.3 Análisis Exploratorio de Datos (EDA) 3.4 Prueba de Dickey Fuller Aumentada (ADF) 3.5 División de datos para entrenamiento y prueba 3.6 Modelo con Auto-Arima 3.7 Implementación del modelo
+4. Modelo LSTM 4.1 Estandarización de los datos 4.2 Modelación con LSTM 4.3 Evaluación del modelo
+5. Modelo Random Forest 5.1 Idea intuitiva detrás de los Bosques Aleatorios 5.2 Feature Change 5.3 Implementación del Modelo Random Forest 5.4 Evaluación del modelo
+6. Modelo Prophet 6.1 Modelación del modelo Prophet 6.2 Evaluación del modelo
+7. Conclusión
+
+
+1. Introducción a Serie de tiempo 1.1 ¿Qué es una serie de tiempo?
 Una serie temporal o cronológica es una sucesión de datos medidos en determinados momentos y ordenados cronológicamente.
 Componentes de una serie temporal
 
